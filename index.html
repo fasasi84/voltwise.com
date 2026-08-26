@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voltway Solar &amp; Electric — Power, Rewired</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">
+      <svg class="logo-mark" viewBox="0 0 26 26" fill="none">
+        <circle cx="13" cy="13" r="12" stroke="#FFB627" stroke-width="1.5"/>
+        <path d="M13 4L13 8M13 18L13 22M4 13L8 13M18 13L22 13" stroke="#FFB627" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="13" cy="13" r="4.5" fill="#FFB627"/>
+      </svg>
+      VOLTWAY
+    </div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#process">How it works</a>
+      <a href="#trust">Why Voltway</a>
+      <a href="#founder">Founder</a>
+      <a href="#quote">Contact</a>
+    </div>
+    <a href="#quote" class="nav-cta">Get a free quote</a>
+  </nav>
+</header>
+
+<section class="hero blueprint-bg">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Licensed Solar &amp; Electrical Contractors</div>
+      <h1>Your roof is<br>a <span class="accent">power plant</span><br>waiting to happen.</h1>
+      <p class="hero-sub">Voltway designs, wires, and installs solar and electrical systems for homes and businesses — from panel upgrades to full solar conversions. One crew, one warranty, no runaround.</p>
+      <div class="hero-actions">
+        <a href="#quote" class="btn-primary">Get a free quote</a>
+        <a href="#process" class="btn-secondary">See how it works</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>30%</strong>Federal tax credit</div>
+        <div><strong>25 yr</strong>Panel warranty</div>
+        <div><strong>$0</strong>Down financing</div>
+      </div>
+    </div>
+
+    <div class="schematic">
+      <span class="schematic-label">System overview / live estimate</span>
+      <svg viewBox="0 0 420 320" style="margin-top:24px;">
+        <!-- sun -->
+        <circle cx="70" cy="70" r="24" class="node-fill"/>
+        <g class="sun-ray">
+          <line x1="70" y1="28" x2="70" y2="16"/>
+          <line x1="70" y1="112" x2="70" y2="124" opacity="0"/>
+          <line x1="34" y1="34" x2="26" y2="26"/>
+          <line x1="106" y1="34" x2="114" y2="26"/>
+          <line x1="28" y1="70" x2="16" y2="70"/>
+          <line x1="112" y1="70" x2="124" y2="70"/>
+        </g>
+        <text x="70" y="112" text-anchor="middle">SUN</text>
+
+        <!-- panel -->
+        <rect x="190" y="46" width="70" height="46" rx="2" class="node-ring"/>
+        <line x1="190" y1="60" x2="260" y2="60" stroke="#2E5C82" stroke-width="1"/>
+        <line x1="190" y1="74" x2="260" y2="74" stroke="#2E5C82" stroke-width="1"/>
+        <line x1="212" y1="46" x2="212" y2="92" stroke="#2E5C82" stroke-width="1"/>
+        <line x1="235" y1="46" x2="235" y2="92" stroke="#2E5C82" stroke-width="1"/>
+        <text x="225" y="112" text-anchor="middle">PANEL ARRAY</text>
+
+        <!-- home -->
+        <path d="M330 92 L330 60 L360 40 L390 60 L390 92 Z" class="node-ring"/>
+        <text x="360" y="112" text-anchor="middle">HOME</text>
+
+        <!-- flow lines -->
+        <path id="line1" class="flow-line" d="M94 70 Q150 70 190 68"/>
+        <path id="line2" class="flow-line" d="M260 68 Q300 68 330 76"/>
+
+        <circle r="3.5" class="flow-pulse">
+          <animateMotion dur="2.6s" repeatCount="indefinite" rotate="auto">
+            <mpath href="#line1"/>
+          </animateMotion>
+        </circle>
+        <circle r="3.5" class="flow-pulse">
+          <animateMotion dur="2.6s" begin="0.5s" repeatCount="indefinite" rotate="auto">
+            <mpath href="#line2"/>
+          </animateMotion>
+        </circle>
+
+        <!-- meter panel -->
+        <rect x="40" y="180" width="340" height="110" rx="3" class="node-ring" fill="var(--navy-deep)"/>
+        <text x="60" y="206" style="font-size:10px;">EST. MONTHLY GENERATION</text>
+        <text x="60" y="238" class="kwh-counter">1,240 kWh</text>
+        <text x="60" y="258" style="font-size:10px;">EST. MONTHLY SAVINGS</text>
+        <text x="60" y="282" class="kwh-counter" fill="#C97A4A">$186 / mo</text>
+
+        <line x1="230" y1="192" x2="230" y2="278" stroke="#2E5C82" stroke-width="1"/>
+        <text x="250" y="206" style="font-size:10px;">SYSTEM STATUS</text>
+        <text x="250" y="238" class="kwh-counter">ONLINE</text>
+        <text x="250" y="258" style="font-size:10px;">GRID CONNECTION</text>
+        <text x="250" y="282" class="kwh-counter">ACTIVE</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="wrap stats-grid">
+    <div><div class="stat-num">400+</div><div class="stat-label">Systems installed</div></div>
+    <div><div class="stat-num">12</div><div class="stat-label">Years in business</div></div>
+    <div><div class="stat-num">4.9★</div><div class="stat-label">Average customer rating</div></div>
+    <div><div class="stat-num">24/7</div><div class="stat-label">Emergency electrical support</div></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-eyebrow">What we do</div>
+      <h2>Solar and electrical, under one roof.</h2>
+      <p class="section-sub">Most solar companies sub out the electrical work. We don't — our licensed electricians handle the wiring, panel upgrades, and inspections in-house.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 44 44" fill="none"><rect x="6" y="10" width="32" height="20" rx="2" stroke="#FFB627" stroke-width="1.5"/><line x1="6" y1="17" x2="38" y2="17" stroke="#FFB627" stroke-width="1"/><line x1="6" y1="23" x2="38" y2="23" stroke="#FFB627" stroke-width="1"/><line x1="16" y1="10" x2="16" y2="30" stroke="#FFB627" stroke-width="1"/><line x1="28" y1="10" x2="28" y2="30" stroke="#FFB627" stroke-width="1"/></svg>
+        <h3>Solar Installation</h3>
+        <p>Custom-designed rooftop or ground-mount arrays sized to your actual usage, not a generic package.</p>
+        <span class="service-tag">Residential &amp; commercial</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 44 44" fill="none"><path d="M24 6L12 24H21L18 38L34 18H24L24 6Z" stroke="#FFB627" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <h3>Electrical Upgrades</h3>
+        <p>Panel upgrades, rewiring, and code compliance work — the electrical backbone your solar system needs to run safely.</p>
+        <span class="service-tag">Licensed electricians</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 44 44" fill="none"><rect x="8" y="12" width="28" height="18" rx="2" stroke="#FFB627" stroke-width="1.5"/><rect x="34" y="17" width="4" height="8" rx="1" fill="#FFB627"/><line x1="14" y1="30" x2="14" y2="35" stroke="#FFB627" stroke-width="1.5"/><line x1="30" y1="30" x2="30" y2="35" stroke="#FFB627" stroke-width="1.5"/></svg>
+        <h3>EV Charger Install</h3>
+        <p>Level 2 home charging stations wired in, sized against your panel capacity so nothing trips.</p>
+        <span class="service-tag">Fast, permitted install</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="process">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-eyebrow">The process</div>
+      <h2>From site visit to system online, in four steps.</h2>
+    </div>
+    <div class="process-list">
+      <div class="process-step">
+        <div class="process-num">01</div>
+        <h3>Site assessment</h3>
+        <p>We evaluate your roof, panel capacity, and energy usage on-site — no drone photos from a call center.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02</div>
+        <h3>Custom design</h3>
+        <p>You get an actual system design and a fixed quote, sized to your usage and budget.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03</div>
+        <h3>Install &amp; inspect</h3>
+        <p>Our licensed crew installs the system and handles permitting and inspection end to end.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">04</div>
+        <h3>System online</h3>
+        <p>We flip it on, walk you through monitoring, and you start generating your own power.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trust">
+  <div class="wrap trust-grid">
+    <div>
+      <div class="section-eyebrow">Why Voltway</div>
+      <h2>Built by electricians, not sales reps.</h2>
+      <ul class="trust-list">
+        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fully licensed, bonded, and insured electrical contractors — not a referral network.</li>
+        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fixed quotes with no hidden change orders once work begins.</li>
+        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>25-year equipment warranty plus a 10-year workmanship guarantee.</li>
+        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>One team for design, permitting, install, and inspection — no subcontractor handoffs.</li>
+      </ul>
+    </div>
+    <div class="quote-card">
+      <p class="quote-text">Voltway rewired our panel and had the solar array online three weeks later. Our electric bill went from $210 a month to about $18.</p>
+      <div class="quote-author"><strong>Dara O.</strong> — Homeowner, installed 2025</div>
+    </div>
+  </div>
+</section>
+
+<section class="founder" id="founder">
+  <div class="wrap founder-grid">
+    <div class="founder-photo-wrap">
+      <img src="joseph-fasasi.png" alt="Joseph Fasasi, Founder of Voltway Solar &amp; Electric">
+    </div>
+    <div class="founder-copy">
+      <div class="section-eyebrow">Meet the founder</div>
+      <h3>Joseph Fasasi</h3>
+      <span class="founder-role">Founder &amp; Lead Electrician</span>
+      <p>Joseph started Voltway after years of watching homeowners get sold oversized solar systems by companies that never touched the wiring themselves. He built Voltway to do both — proper electrical work and solar design — under one licensed team, so nothing gets lost between contractors.</p>
+      <p>Today he still leads site assessments personally on every install, because the details that make a system actually perform are decided on the roof, not in a sales call.</p>
+      <div class="founder-sig">— Joseph Fasasi</div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" id="quote">
+  <div class="wrap cta-grid">
+    <div class="cta-copy">
+      <div class="section-eyebrow">Get started</div>
+      <h2>See what your roof could generate.</h2>
+      <p>Tell us a bit about your property and we'll follow up with a free, no-pressure site assessment and quote.</p>
+      <div class="hero-meta">
+        <div><strong>24hr</strong>Response time</div>
+        <div><strong>Free</strong>Site assessment</div>
+      </div>
+    </div>
+    <form onsubmit="event.preventDefault(); this.querySelector('.form-submit').textContent='Request sent ✓';">
+      <div class="form-row">
+        <div class="field">
+          <label for="fname">First name</label>
+          <input id="fname" type="text" required>
+        </div>
+        <div class="field">
+          <label for="lname">Last name</label>
+          <input id="lname" type="text" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field full">
+          <label for="email">Email</label>
+          <input id="email" type="email" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="zip">ZIP code</label>
+          <input id="zip" type="text" required>
+        </div>
+        <div class="field">
+          <label for="interest">Interested in</label>
+          <select id="interest">
+            <option>Solar installation</option>
+            <option>Electrical upgrade</option>
+            <option>EV charger</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+      </div>
+      <button class="form-submit" type="submit">Request my free quote</button>
+      <div class="form-note">No obligation. We'll never sell your info.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div class="logo">
+      <svg class="logo-mark" viewBox="0 0 26 26" fill="none">
+        <circle cx="13" cy="13" r="12" stroke="#FFB627" stroke-width="1.5"/>
+        <path d="M13 4L13 8M13 18L13 22M4 13L8 13M18 13L22 13" stroke="#FFB627" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="13" cy="13" r="4.5" fill="#FFB627"/>
+      </svg>
+      VOLTWAY
+    </div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#trust">Why Voltway</a>
+      <a href="#quote">Get a quote</a>
+    </div>
+    <div class="footer-copy">© 2026 Voltway Solar &amp; Electric. Licensed Contractor.</div>
+  </div>
+</footer>
+
+</body>
+</html>
