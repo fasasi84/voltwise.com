@@ -1,285 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Voltway Solar &amp; Electric — Power, Rewired</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SecureTime is an AI-powered workforce intelligence platform that detects time theft, reduces payroll leakage, and helps teams monitor real-time attendance and site access.">
+  <title>SecureTime | AI Workforce Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <nav class="wrap nav-bar">
+      <a href="#top" class="brand" aria-label="SecureTime home">
+        <span class="brand-mark">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.5L23 6v9.5c0 7.2-4.1 11.5-7 13.8-2.9-2.3-7-6.6-7-13.8V6l7-3.5zm0 7.1l-4.2 2.1v5.9c0 4.4 2.3 7.6 4.2 9.2 1.9-1.6 4.2-4.8 4.2-9.2V11.7L16 9.6z" fill="currentColor"/></svg>
+        </span>
+        <span>SECURETIME</span>
+      </a>
 
-<header>
-  <nav class="wrap">
-    <div class="logo">
-      <svg class="logo-mark" viewBox="0 0 26 26" fill="none">
-        <circle cx="13" cy="13" r="12" stroke="#FFB627" stroke-width="1.5"/>
-        <path d="M13 4L13 8M13 18L13 22M4 13L8 13M18 13L22 13" stroke="#FFB627" stroke-width="1.5" stroke-linecap="round"/>
-        <circle cx="13" cy="13" r="4.5" fill="#FFB627"/>
-      </svg>
-      VOLTWAY
-    </div>
-    <div class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#process">How it works</a>
-      <a href="#trust">Why Voltway</a>
-      <a href="#founder">Founder</a>
-      <a href="#quote">Contact</a>
-    </div>
-    <a href="#quote" class="nav-cta">Get a free quote</a>
-  </nav>
-</header>
-
-<section class="hero blueprint-bg">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow">Licensed Solar &amp; Electrical Contractors</div>
-      <h1>Your roof is<br>a <span class="accent">power plant</span><br>waiting to happen.</h1>
-      <p class="hero-sub">Voltway designs, wires, and installs solar and electrical systems for homes and businesses — from panel upgrades to full solar conversions. One crew, one warranty, no runaround.</p>
-      <div class="hero-actions">
-        <a href="#quote" class="btn-primary">Get a free quote</a>
-        <a href="#process" class="btn-secondary">See how it works</a>
+      <div class="nav-links">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#ai">AI</a>
+        <a href="#market">Market</a>
+        <a href="#team">Team</a>
       </div>
-      <div class="hero-meta">
-        <div><strong>30%</strong>Federal tax credit</div>
-        <div><strong>25 yr</strong>Panel warranty</div>
-        <div><strong>$0</strong>Down financing</div>
-      </div>
-    </div>
 
-    <div class="schematic">
-      <span class="schematic-label">System overview / live estimate</span>
-      <svg viewBox="0 0 420 320" style="margin-top:24px;">
-        <!-- sun -->
-        <circle cx="70" cy="70" r="24" class="node-fill"/>
-        <g class="sun-ray">
-          <line x1="70" y1="28" x2="70" y2="16"/>
-          <line x1="70" y1="112" x2="70" y2="124" opacity="0"/>
-          <line x1="34" y1="34" x2="26" y2="26"/>
-          <line x1="106" y1="34" x2="114" y2="26"/>
-          <line x1="28" y1="70" x2="16" y2="70"/>
-          <line x1="112" y1="70" x2="124" y2="70"/>
-        </g>
-        <text x="70" y="112" text-anchor="middle">SUN</text>
+      <a class="nav-cta" href="#contact">Book demo</a>
+    </nav>
+  </header>
 
-        <!-- panel -->
-        <rect x="190" y="46" width="70" height="46" rx="2" class="node-ring"/>
-        <line x1="190" y1="60" x2="260" y2="60" stroke="#2E5C82" stroke-width="1"/>
-        <line x1="190" y1="74" x2="260" y2="74" stroke="#2E5C82" stroke-width="1"/>
-        <line x1="212" y1="46" x2="212" y2="92" stroke="#2E5C82" stroke-width="1"/>
-        <line x1="235" y1="46" x2="235" y2="92" stroke="#2E5C82" stroke-width="1"/>
-        <text x="225" y="112" text-anchor="middle">PANEL ARRAY</text>
+  <main id="top">
+    <section class="hero blueprint-bg">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">AI workforce security platform</div>
+          <h1>Protect every shift with AI that knows when work is real.</h1>
+          <p class="hero-sub">
+            SecureTime helps logistics teams, service businesses, and field operations stop payroll leakage,
+            reduce time theft, and identify suspicious attendance patterns before they become costly losses.
+          </p>
 
-        <!-- home -->
-        <path d="M330 92 L330 60 L360 40 L390 60 L390 92 Z" class="node-ring"/>
-        <text x="360" y="112" text-anchor="middle">HOME</text>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Request demo</a>
+            <a class="btn btn-secondary" href="#solution">See how it works</a>
+          </div>
 
-        <!-- flow lines -->
-        <path id="line1" class="flow-line" d="M94 70 Q150 70 190 68"/>
-        <path id="line2" class="flow-line" d="M260 68 Q300 68 330 76"/>
-
-        <circle r="3.5" class="flow-pulse">
-          <animateMotion dur="2.6s" repeatCount="indefinite" rotate="auto">
-            <mpath href="#line1"/>
-          </animateMotion>
-        </circle>
-        <circle r="3.5" class="flow-pulse">
-          <animateMotion dur="2.6s" begin="0.5s" repeatCount="indefinite" rotate="auto">
-            <mpath href="#line2"/>
-          </animateMotion>
-        </circle>
-
-        <!-- meter panel -->
-        <rect x="40" y="180" width="340" height="110" rx="3" class="node-ring" fill="var(--navy-deep)"/>
-        <text x="60" y="206" style="font-size:10px;">EST. MONTHLY GENERATION</text>
-        <text x="60" y="238" class="kwh-counter">1,240 kWh</text>
-        <text x="60" y="258" style="font-size:10px;">EST. MONTHLY SAVINGS</text>
-        <text x="60" y="282" class="kwh-counter" fill="#C97A4A">$186 / mo</text>
-
-        <line x1="230" y1="192" x2="230" y2="278" stroke="#2E5C82" stroke-width="1"/>
-        <text x="250" y="206" style="font-size:10px;">SYSTEM STATUS</text>
-        <text x="250" y="238" class="kwh-counter">ONLINE</text>
-        <text x="250" y="258" style="font-size:10px;">GRID CONNECTION</text>
-        <text x="250" y="282" class="kwh-counter">ACTIVE</text>
-      </svg>
-    </div>
-  </div>
-</section>
-
-<div class="stats-bar">
-  <div class="wrap stats-grid">
-    <div><div class="stat-num">400+</div><div class="stat-label">Systems installed</div></div>
-    <div><div class="stat-num">12</div><div class="stat-label">Years in business</div></div>
-    <div><div class="stat-num">4.9★</div><div class="stat-label">Average customer rating</div></div>
-    <div><div class="stat-num">24/7</div><div class="stat-label">Emergency electrical support</div></div>
-  </div>
-</div>
-
-<section id="services">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-eyebrow">What we do</div>
-      <h2>Solar and electrical, under one roof.</h2>
-      <p class="section-sub">Most solar companies sub out the electrical work. We don't — our licensed electricians handle the wiring, panel upgrades, and inspections in-house.</p>
-    </div>
-    <div class="services-grid">
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none"><rect x="6" y="10" width="32" height="20" rx="2" stroke="#FFB627" stroke-width="1.5"/><line x1="6" y1="17" x2="38" y2="17" stroke="#FFB627" stroke-width="1"/><line x1="6" y1="23" x2="38" y2="23" stroke="#FFB627" stroke-width="1"/><line x1="16" y1="10" x2="16" y2="30" stroke="#FFB627" stroke-width="1"/><line x1="28" y1="10" x2="28" y2="30" stroke="#FFB627" stroke-width="1"/></svg>
-        <h3>Solar Installation</h3>
-        <p>Custom-designed rooftop or ground-mount arrays sized to your actual usage, not a generic package.</p>
-        <span class="service-tag">Residential &amp; commercial</span>
-      </div>
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none"><path d="M24 6L12 24H21L18 38L34 18H24L24 6Z" stroke="#FFB627" stroke-width="1.5" stroke-linejoin="round"/></svg>
-        <h3>Electrical Upgrades</h3>
-        <p>Panel upgrades, rewiring, and code compliance work — the electrical backbone your solar system needs to run safely.</p>
-        <span class="service-tag">Licensed electricians</span>
-      </div>
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none"><rect x="8" y="12" width="28" height="18" rx="2" stroke="#FFB627" stroke-width="1.5"/><rect x="34" y="17" width="4" height="8" rx="1" fill="#FFB627"/><line x1="14" y1="30" x2="14" y2="35" stroke="#FFB627" stroke-width="1.5"/><line x1="30" y1="30" x2="30" y2="35" stroke="#FFB627" stroke-width="1.5"/></svg>
-        <h3>EV Charger Install</h3>
-        <p>Level 2 home charging stations wired in, sized against your panel capacity so nothing trips.</p>
-        <span class="service-tag">Fast, permitted install</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="process" class="process">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-eyebrow">The process</div>
-      <h2>From site visit to system online, in four steps.</h2>
-    </div>
-    <div class="process-list">
-      <div class="process-step">
-        <div class="process-num">01</div>
-        <h3>Site assessment</h3>
-        <p>We evaluate your roof, panel capacity, and energy usage on-site — no drone photos from a call center.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-num">02</div>
-        <h3>Custom design</h3>
-        <p>You get an actual system design and a fixed quote, sized to your usage and budget.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-num">03</div>
-        <h3>Install &amp; inspect</h3>
-        <p>Our licensed crew installs the system and handles permitting and inspection end to end.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-num">04</div>
-        <h3>System online</h3>
-        <p>We flip it on, walk you through monitoring, and you start generating your own power.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="trust">
-  <div class="wrap trust-grid">
-    <div>
-      <div class="section-eyebrow">Why Voltway</div>
-      <h2>Built by electricians, not sales reps.</h2>
-      <ul class="trust-list">
-        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fully licensed, bonded, and insured electrical contractors — not a referral network.</li>
-        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fixed quotes with no hidden change orders once work begins.</li>
-        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>25-year equipment warranty plus a 10-year workmanship guarantee.</li>
-        <li><span class="check"><svg viewBox="0 0 12 12"><path d="M2 6L5 9L10 3" stroke="#FFB627" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>One team for design, permitting, install, and inspection — no subcontractor handoffs.</li>
-      </ul>
-    </div>
-    <div class="quote-card">
-      <p class="quote-text">Voltway rewired our panel and had the solar array online three weeks later. Our electric bill went from $210 a month to about $18.</p>
-      <div class="quote-author"><strong>Dara O.</strong> — Homeowner, installed 2025</div>
-    </div>
-  </div>
-</section>
-
-<section class="founder" id="founder">
-  <div class="wrap founder-grid">
-    <div class="founder-photo-wrap">
-      <img src="joseph-fasasi.png" alt="Joseph Fasasi, Founder of Voltway Solar &amp; Electric">
-    </div>
-    <div class="founder-copy">
-      <div class="section-eyebrow">Meet the founder</div>
-      <h3>Joseph Fasasi</h3>
-      <span class="founder-role">Founder &amp; Lead Electrician</span>
-      <p>Joseph started Voltway after years of watching homeowners get sold oversized solar systems by companies that never touched the wiring themselves. He built Voltway to do both — proper electrical work and solar design — under one licensed team, so nothing gets lost between contractors.</p>
-      <p>Today he still leads site assessments personally on every install, because the details that make a system actually perform are decided on the roof, not in a sales call.</p>
-      <div class="founder-sig">— Joseph Fasasi</div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-section" id="quote">
-  <div class="wrap cta-grid">
-    <div class="cta-copy">
-      <div class="section-eyebrow">Get started</div>
-      <h2>See what your roof could generate.</h2>
-      <p>Tell us a bit about your property and we'll follow up with a free, no-pressure site assessment and quote.</p>
-      <div class="hero-meta">
-        <div><strong>24hr</strong>Response time</div>
-        <div><strong>Free</strong>Site assessment</div>
-      </div>
-    </div>
-    <form onsubmit="event.preventDefault(); this.querySelector('.form-submit').textContent='Request sent ✓';">
-      <div class="form-row">
-        <div class="field">
-          <label for="fname">First name</label>
-          <input id="fname" type="text" required>
+          <div class="hero-metrics">
+            <div><strong>42%</strong><span>pilot goal: less leakage</span></div>
+            <div><strong>2.4x</strong><span>target audit acceleration</span></div>
+            <div><strong>24/7</strong><span>live anomaly detection</span></div>
+          </div>
         </div>
-        <div class="field">
-          <label for="lname">Last name</label>
-          <input id="lname" type="text" required>
+
+        <div class="hero-visual" aria-label="SecureTime dashboard preview">
+          <div class="dashboard-window">
+            <div class="window-topbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="dashboard-body">
+              <div class="panel panel-small">
+                <p>Live workforce</p>
+                <h3>1,284</h3>
+                <div class="mini-bars"><span></span><span></span><span></span><span></span><span></span></div>
+              </div>
+
+              <div class="panel panel-wide">
+                <div class="panel-header">
+                  <span>Shift integrity</span>
+                  <span class="pill success">Healthy</span>
+                </div>
+                <div class="line-chart">
+                  <span class="bar a"></span>
+                  <span class="bar b"></span>
+                  <span class="bar c"></span>
+                  <span class="bar d"></span>
+                  <span class="bar e"></span>
+                  <span class="bar f"></span>
+                </div>
+              </div>
+
+              <div class="panel warning-panel">
+                <p>High-risk anomalies</p>
+                <h3>07</h3>
+                <ul>
+                  <li>Unauthorized clock-in</li>
+                  <li>GPS mismatch</li>
+                  <li>Early sign-off</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="form-row">
-        <div class="field full">
-          <label for="email">Email</label>
-          <input id="email" type="email" required>
+    </section>
+
+    <div class="stats-bar">
+      <div class="wrap stats-grid">
+        <div>
+          <div class="stat-number">1.2k+</div>
+          <div class="stat-label">Pilot workers tracked</div>
+        </div>
+        <div>
+          <div class="stat-number">12</div>
+          <div class="stat-label">Pilot sites</div>
+        </div>
+        <div>
+          <div class="stat-number">4.9/5</div>
+          <div class="stat-label">Initial operator feedback</div>
+        </div>
+        <div>
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Risk monitoring</div>
         </div>
       </div>
-      <div class="form-row">
-        <div class="field">
-          <label for="zip">ZIP code</label>
-          <input id="zip" type="text" required>
+    </div>
+
+    <section id="problem" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">The problem</div>
+          <h2>Payroll leakage is quietly eating away at margins.</h2>
+          <p class="section-sub">
+            Many businesses still rely on paper logs, manual punch-ins, and fragmented attendance tools.
+            That creates buddy punching, ghost shifts, time falsification, and slow compliance reviews.
+          </p>
         </div>
-        <div class="field">
-          <label for="interest">Interested in</label>
-          <select id="interest">
-            <option>Solar installation</option>
-            <option>Electrical upgrade</option>
-            <option>EV charger</option>
-            <option>Not sure yet</option>
-          </select>
+
+        <div class="problem-grid">
+          <div class="info-card">
+            <span class="card-kicker">Who suffers</span>
+            <h3>Operations leaders, HR teams, and site managers</h3>
+            <p>They lose time, wages, and trust when attendance data is inaccurate or impossible to verify.</p>
+          </div>
+          <div class="info-card">
+            <span class="card-kicker">What it costs</span>
+            <h3>Hours lost weekly and inflated payroll costs</h3>
+            <p>Unverified attendance can drain thousands of dollars per month across staffing, overtime, and compliance risk.</p>
+          </div>
+          <div class="info-card">
+            <span class="card-kicker">Why now</span>
+            <h3>Remote teams and hybrid shifts make fraud easier</h3>
+            <p>As workforces spread across multiple sites, manual monitoring can no longer keep up with real-time risk.</p>
+          </div>
         </div>
       </div>
-      <button class="form-submit" type="submit">Request my free quote</button>
-      <div class="form-note">No obligation. We'll never sell your info.</div>
-    </form>
-  </div>
-</section>
+    </section>
 
-<footer>
-  <div class="wrap footer-grid">
-    <div class="logo">
-      <svg class="logo-mark" viewBox="0 0 26 26" fill="none">
-        <circle cx="13" cy="13" r="12" stroke="#FFB627" stroke-width="1.5"/>
-        <path d="M13 4L13 8M13 18L13 22M4 13L8 13M18 13L22 13" stroke="#FFB627" stroke-width="1.5" stroke-linecap="round"/>
-        <circle cx="13" cy="13" r="4.5" fill="#FFB627"/>
-      </svg>
-      VOLTWAY
-    </div>
-    <div class="footer-links">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#trust">Why Voltway</a>
-      <a href="#quote">Get a quote</a>
-    </div>
-    <div class="footer-copy">© 2026 Voltway Solar &amp; Electric. Licensed Contractor.</div>
-  </div>
-</footer>
+    <section id="solution" class="section alt-section">
+      <div class="wrap">
+        <div class="section-head narrow">
+          <div class="section-eyebrow">The solution</div>
+          <h2>SecureTime turns attendance into an intelligent, verifiable system.</h2>
+        </div>
 
+        <div class="solution-grid">
+          <div class="solution-copy">
+            <p>
+              We combine location intelligence, identity verification, anomaly detection, and predictive alerts to tell teams
+              when a shift is likely real and when it needs human review. The result is cleaner payroll, faster investigations,
+              and better workforce visibility.
+            </p>
+            <ul class="check-list">
+              <li>Real-time attendance monitoring</li>
+              <li>Device, GPS, and behavior validation</li>
+              <li>AI-generated anomaly reports for supervisors</li>
+              <li>Faster, auditable payroll decisions</li>
+            </ul>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-row">
+              <span>Biometric check</span>
+              <span class="status good">Verified</span>
+            </div>
+            <div class="stack-row">
+              <span>GPS route match</span>
+              <span class="status good">Match</span>
+            </div>
+            <div class="stack-row">
+              <span>Shift duration pattern</span>
+              <span class="status warn">Review</span>
+            </div>
+            <div class="stack-row">
+              <span>Clock-out deviation</span>
+              <span class="status alert">Flagged</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">AI technology</div>
+          <h2>AI is at the center of our platform, not bolted on.</h2>
+        </div>
+
+        <div class="ai-grid">
+          <div class="ai-card">
+            <span class="card-kicker">What data AI uses</span>
+            <p>Attendance logs, geolocation data, device metadata, shift timestamps, team schedules, historical exception patterns, and behavior baselines.</p>
+          </div>
+          <div class="ai-card">
+            <span class="card-kicker">What it predicts</span>
+            <p>It detects anomalies, flags suspicious check-ins, identifies likely time fraud, and predicts which shifts need manager review.</p>
+          </div>
+          <div class="ai-card">
+            <span class="card-kicker">Models &amp; techniques</span>
+            <p>We use rule-based logic, anomaly scoring, time-series modeling, and predictive classification to power workforce intelligence.</p>
+          </div>
+          <div class="ai-card">
+            <span class="card-kicker">Infrastructure</span>
+            <p>High-throughput streaming pipelines and GPU-accelerated inference help us process live activity data and generate alerts instantly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section alt-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">Product features</div>
+          <h2>Built to catch risk before payroll is approved.</h2>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>AI for attendance validation</h3>
+            <p>Cross-checks time logs against location, schedule, and historical behavior to validate every shift.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>Fraud and anomaly detection</h3>
+            <p>Flags ghost shifts, early sign-offs, duplicate clock-ins, and inconsistent route activity in real time.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>Supervisor action dashboard</h3>
+            <p>Lets teams review exceptions, send follow-up prompts, and resolve discrepancies without spreadsheet chaos.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">04</div>
+            <h3>Compliance audit trails</h3>
+            <p>Creates searchable, timestamped records for payroll disputes, labor reviews, and internal audits.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">05</div>
+            <h3>Real-time insights</h3>
+            <p>Summarizes overtime pressure, absenteeism, and staffing risk across sites and teams.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">06</div>
+            <h3>API-ready integrations</h3>
+            <p>Works alongside payroll systems, HR tools, job management platforms, and corporate operations workflows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase-section">
+      <div class="wrap showcase-grid">
+        <div>
+          <div class="section-eyebrow">Live product preview</div>
+          <h2>Clear data. Clear decisions. Less risk.</h2>
+          <p class="section-sub">
+            Teams need a system that explains risk instead of burying them in raw attendance data.
+            SecureTime turns complex activity streams into simple operational decisions.
+          </p>
+        </div>
+
+        <div class="showcase-panel">
+          <div class="showcase-head">
+            <span>Operations dashboard</span>
+            <span class="pill neutral">Live</span>
+          </div>
+          <div class="chart-grid">
+            <div class="chart-box">
+              <small>Attendance integrity</small>
+              <strong>96.4%</strong>
+              <div class="sparkline spark-a"><span></span></div>
+            </div>
+            <div class="chart-box">
+              <small>Risk score</small>
+              <strong>2.1</strong>
+              <div class="sparkline spark-b"><span></span></div>
+            </div>
+            <div class="chart-box large-box">
+              <small>Exception review</small>
+              <ul>
+                <li>Buddy check 2</li>
+                <li>Unverified route 4</li>
+                <li>Early sign-out 1</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">How it works</div>
+          <h2>From shift data to action in four steps.</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-index">01</div>
+            <h3>Capture activity</h3>
+            <p>We collect attendance data from devices, check-ins, route records, and schedule information across your workforce.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-index">02</div>
+            <h3>Apply AI scoring</h3>
+            <p>Our models compare each shift to expected behaviors and detect inconsistencies using historical and live patterns.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-index">03</div>
+            <h3>Flag exceptions</h3>
+            <p>Only high-risk anomalies are surfaced to managers, reducing alert fatigue and accelerating review cycles.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-index">04</div>
+            <h3>Payout and policy actions</h3>
+            <p>Supervisors review clear evidence, resolve issues quickly, and keep payroll decisions transparent and auditable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="infra" class="section alt-section">
+      <div class="wrap">
+        <div class="section-head narrow">
+          <div class="section-eyebrow">Technology &amp; infrastructure</div>
+          <h2>Cloud-native systems designed for secure, scalable workforce intelligence.</h2>
+        </div>
+
+        <div class="infra-grid">
+          <div class="infra-card">
+            <h3>How we use AWS</h3>
+            <p>
+              We use AWS to host backend APIs, store attendance and compliance records, run AI inference workflows,
+              enforce identity and access controls, and monitor system availability through cloud-native observability tools.
+            </p>
+          </div>
+          <div class="infra-card">
+            <h3>How we use NVIDIA</h3>
+            <p>
+              NVIDIA acceleration supports high-throughput model inference, complex anomaly scoring, and real-time processing
+              for large workforce datasets as we scale into higher-volume operations and multi-site deployments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="market" class="section">
+      <div class="wrap market-grid">
+        <div>
+          <div class="section-eyebrow">Market opportunity</div>
+          <h2>Focused on high-risk, high-volume workforce operations.</h2>
+          <p class="section-sub">
+            Our initial target market is frontline operations in logistics, security, service teams, and field staffing.
+            We are building for Nigeria, Ghana, Kenya, South Africa, and the wider African workforce market first.
+          </p>
+        </div>
+
+        <div class="market-panel">
+          <div class="market-row"><span>Target users</span><strong>Operations teams, HR, site managers, field supervisors</strong></div>
+          <div class="market-row"><span>Launch markets</span><strong>Nigeria, Ghana, Kenya, South Africa</strong></div>
+          <div class="market-row"><span>Revenue model</span><strong>Subscription, team workspaces, enterprise onboarding</strong></div>
+          <div class="market-row"><span>Growth plan</span><strong>Start with pilots, expand to multi-site operations</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="traction" class="section traction-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">Traction</div>
+          <h2>MVP in development with strong early demand.</h2>
+        </div>
+
+        <div class="traction-grid">
+          <div class="traction-card">
+            <span class="card-kicker">Waitlist</span>
+            <h3>680+</h3>
+            <p>Interested teams on the early access list across operations, field services, and security.</p>
+          </div>
+          <div class="traction-card">
+            <span class="card-kicker">Pilot users</span>
+            <h3>12 sites</h3>
+            <p>Currently onboarding pilots in staffing, field operations, and logistics environments.</p>
+          </div>
+          <div class="traction-card">
+            <span class="card-kicker">MVP status</span>
+            <h3>Beta</h3>
+            <p>Production-ready pilot workflows are being refined with real operational feedback from early users.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">Roadmap</div>
+          <h2>What we are building next.</h2>
+        </div>
+
+        <div class="roadmap">
+          <div class="roadmap-item">
+            <span>Phase 1</span>
+            <strong>MVP development</strong>
+          </div>
+          <div class="roadmap-item">
+            <span>Phase 2</span>
+            <strong>Beta testing with early users</strong>
+          </div>
+          <div class="roadmap-item">
+            <span>Phase 3</span>
+            <strong>AI model improvement</strong>
+          </div>
+          <div class="roadmap-item">
+            <span>Phase 4</span>
+            <strong>Cloud deployment</strong>
+          </div>
+          <div class="roadmap-item">
+            <span>Phase 5</span>
+            <strong>GPU-accelerated scaling</strong>
+          </div>
+          <div class="roadmap-item">
+            <span>Phase 6</span>
+            <strong>Expansion to more markets</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section alt-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-eyebrow">Team</div>
+          <h2>Built by engineers, operators, and product specialists.</h2>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="avatar">AF</div>
+            <h3>Adebayo Folorunso</h3>
+            <span>Founder &amp; CEO</span>
+            <p>Former operations leader with experience in workforce systems, compliance, and process design for service businesses.</p>
+          </article>
+          <article class="team-card">
+            <div class="avatar">DT</div>
+            <h3>Daniel Thompson</h3>
+            <span>Head of AI</span>
+            <p>Builds the anomaly detection stack and predictive modeling system behind each workforce risk score.</p>
+          </article>
+          <article class="team-card">
+            <div class="avatar">ME</div>
+            <h3>Mina Eze</h3>
+            <span>Product &amp; Operations</span>
+            <p>Runs pilot onboarding, gathers field feedback, and turns customer friction into product requirements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta-section">
+      <div class="wrap cta-grid">
+        <div class="cta-copy">
+          <div class="section-eyebrow">Contact</div>
+          <h2>Book a demo or join the waitlist.</h2>
+          <p>
+            Whether you are managing a field team, security workforce, or staffing operation, SecureTime helps you reduce risk before payroll is processed.
+          </p>
+          <div class="contact-list">
+            <a href="mailto:hello@securetime.space">hello@securetime.space</a>
+            <span>+234 800 000 0000</span>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="field">
+              <label for="first-name">First name</label>
+              <input id="first-name" type="text" name="first-name" required>
+            </div>
+            <div class="field">
+              <label for="last-name">Last name</label>
+              <input id="last-name" type="text" name="last-name" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+
+          <div class="field">
+            <label for="company">Company</label>
+            <input id="company" type="text" name="company" required>
+          </div>
+
+          <button class="btn btn-primary full-width" type="submit">Request demo</button>
+          <div class="form-note">No spam. Only product updates and demo invites.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="brand footer-brand">
+        <span class="brand-mark">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.5L23 6v9.5c0 7.2-4.1 11.5-7 13.8-2.9-2.3-7-6.6-7-13.8V6l7-3.5zm0 7.1l-4.2 2.1v5.9c0 4.4 2.3 7.6 4.2 9.2 1.9-1.6 4.2-4.8 4.2-9.2V11.7L16 9.6z" fill="currentColor"/></svg>
+        </span>
+        <span>SECURETIME</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#problem">Problem</a>
+        <a href="#ai">AI</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-meta">
+        <span>Built by SecureTime Ltd</span>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
