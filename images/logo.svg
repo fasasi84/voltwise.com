@@ -1,17 +1,30 @@
-<svg width="520" height="160" viewBox="0 0 520 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="150" viewBox="0 0 500 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="shieldGrad" x1="16" y1="12" x2="120" y2="128" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1A84FF"/>
-      <stop offset="1" stop-color="#2DC7C9"/>
+    <linearGradient id="shieldGrad" x1="24" y1="12" x2="126" y2="126" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1769E0"/>
+      <stop offset="1" stop-color="#0B1736"/>
+    </linearGradient>
+    <linearGradient id="shieldEdge" x1="40" y1="22" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#98C4FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3C82FF" stop-opacity="0.4"/>
     </linearGradient>
   </defs>
-  <rect width="520" height="160" fill="transparent"/>
+
   <g transform="translate(0 0)">
-    <path d="M44 14L94 28V74C94 104 82.7 124.9 60 138.5C37.3 124.9 26 104 26 74V28L44 14Z" fill="url(#shieldGrad)"/>
-    <path d="M58 42H78V62C78 79.1 70.4 90.7 59.3 97.5C48.2 90.7 40.6 79.1 40.6 62V42H58V52.3H50.6V63.1C50.6 72.1 55.3 78.8 60 82.4C64.7 78.8 69.4 72.1 69.4 63.1V52.3H58V42Z" fill="white"/>
-    <path d="M72 42H89.5V52.3H72V42ZM72 57.4H89.5V67.7H72V57.4ZM72 72.8H89.5V83.1H72V72.8Z" fill="white"/>
+    <path d="M31 18L79 12L118 18V77C118 97 103 114 82 125C64 116 47 105 31 88V18Z" fill="url(#shieldGrad)"/>
+    <path d="M31 18L79 12L118 18V77C118 97 103 114 82 125C64 116 47 105 31 88V18Z" stroke="url(#shieldEdge)" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <path d="M59 30V78C59 88 67 95 79 95" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M79 95H59" stroke="white" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M92 31C83 22 71 20 61 23C51 26 42 34 42 46C42 55 47 61 56 65L65 68C72 70 77 74 77 81C77 90 70 96 60 96C52 96 45 93 40 88" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M57 89L69 100L95 72" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  <g transform="translate(124 0)">
-    <text x="0" y="94" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.5" fill="#0D1D3A">JoSecure</text>
+
+  <g transform="translate(136 0)">
+    <text x="0" y="92" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.5">
+      <tspan fill="#0B1736">Jose</tspan><tspan fill="#1769E0">cure</tspan>
+    </text>
   </g>
 </svg>
