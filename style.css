@@ -577,6 +577,17 @@ h2 {
 .team-card,
 .infra-card {
   padding: 26px 22px;
+  overflow: hidden;
+}
+
+.info-card img,
+.feature-card img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 18px;
 }
 
 .info-card h3,
@@ -669,9 +680,24 @@ h2 {
 
 .feature-card {
   min-height: 220px;
+  padding: 0;
+  overflow: hidden;
 }
 
-.feature-icon {
+.feature-card img {
+  height: 170px;
+  margin-bottom: 0;
+  border-radius: 16px 16px 0 0;
+}
+
+.feature-card .feature-icon,
+.feature-card h3,
+.feature-card p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.feature-card .feature-icon {
   display: inline-flex;
   width: 42px;
   height: 42px;
@@ -683,6 +709,16 @@ h2 {
   justify-content: center;
   font-family: var(--mono);
   font-weight: 700;
+  margin-top: 20px;
+}
+
+.feature-card h3 {
+  margin-top: 16px;
+}
+
+.feature-card p {
+  margin-bottom: 20px;
+  padding-bottom: 4px;
 }
 
 .features-grid {
