@@ -963,6 +963,11 @@ h2 {
   color: var(--muted);
 }
 
+.contact-list a:hover,
+.contact-list a:focus-visible {
+  color: var(--brand);
+}
+
 .contact-form {
   padding: 24px;
 }
