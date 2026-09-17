@@ -968,6 +968,73 @@ h2 {
   color: var(--brand);
 }
 
+.industry-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.industry-card {
+  min-height: 220px;
+  padding: 24px;
+  background: rgba(18, 42, 56, 0.72);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.industry-card h3 {
+  margin: 34px 0 10px;
+  font-size: 1.15rem;
+}
+
+.industry-card p,
+.faq-list p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.faq-list {
+  border-top: 1px solid var(--line);
+}
+
+.faq-list details {
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  list-style: none;
+  padding-right: 28px;
+  position: relative;
+  font-weight: 700;
+}
+
+.faq-list summary::-webkit-details-marker { display: none; }
+
+.faq-list summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  color: var(--brand);
+  font-family: var(--mono);
+  font-size: 1.1rem;
+}
+
+.faq-list details[open] summary::after { content: "-"; }
+
+.faq-list details p {
+  margin-top: 12px;
+  max-width: 620px;
+}
+
 .contact-form {
   padding: 24px;
 }
@@ -1058,6 +1125,7 @@ input:focus {
   .market-grid,
   .cta-grid,
   .infra-grid,
+  .industry-grid,
   .team-grid,
   .traction-grid,
   .problem-grid,
@@ -1082,6 +1150,8 @@ input:focus {
   .infra-grid {
     grid-template-columns: 1fr;
   }
+
+  .faq-grid { grid-template-columns: 1fr; gap: 32px; }
 
   .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dashboard-window { width: 100%; }
