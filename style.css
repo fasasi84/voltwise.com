@@ -1086,6 +1086,14 @@ input:focus {
   font-size: 0.76rem;
 }
 
+.form-status {
+  min-height: 1.4em;
+  margin: 12px 0 0;
+  color: var(--brand);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: rgba(10, 24, 31, 0.95);

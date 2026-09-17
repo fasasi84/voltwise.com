@@ -569,7 +569,7 @@
           </div>
         </div>
 
-        <form class="contact-form" action="#" method="post">
+        <form id="demo-form" class="contact-form" action="mailto:bolaji.joseph@josecure.space" method="post" enctype="text/plain">
           <div class="form-row">
             <div class="field">
               <label for="first-name">First name</label>
@@ -593,6 +593,7 @@
 
           <button class="btn btn-primary full-width" type="submit">Request demo</button>
           <div class="form-note">No spam. Only product updates and demo invites.</div>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </section>
@@ -622,5 +623,24 @@
       </div>
     </div>
   </footer>
+  <script>
+    const demoForm = document.querySelector('#demo-form');
+    const formStatus = document.querySelector('#form-status');
+
+    demoForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const formData = new FormData(demoForm);
+      const subject = `JoSecure demo request from ${formData.get('first-name')} ${formData.get('last-name')}`;
+      const body = [
+        `Name: ${formData.get('first-name')} ${formData.get('last-name')}`,
+        `Email: ${formData.get('email')}`,
+        `Company: ${formData.get('company')}`
+      ].join('\n');
+
+      window.location.href = `mailto:bolaji.joseph@josecure.space?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      formStatus.textContent = 'Your email app is opening with the demo request ready to send.';
+    });
+  </script>
 </body>
 </html>
